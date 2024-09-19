@@ -11,8 +11,6 @@ namespace FirstProject.Repository
             _employeeDbContext = employeeDbContext;
         }
 
-        
-
         public void AddEmployee(Employee emp)
         {
            _employeeDbContext.Employees.Add(emp);
